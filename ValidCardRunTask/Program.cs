@@ -20,7 +20,7 @@
             // add your code here
 
             bool valid = false;
-            for (int i = 0; i <= cards.Length - 5; i++) // loops through every card in "cards" array, stars at index 0 and ends at 95.
+            for (int i = 0; i <= cards.Length - 5; i++) // loops through every card in "cards" array, stars at index 0 and ends at 95
             {
                 if (cards[i + 1] == cards[i] + 1 && // checking if it goes up in +1 each time.
                     cards[i + 2] == cards[i] + 2 &&
